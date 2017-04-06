@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="morty"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="ssh://git@github.com/iunullc" name="iunu"/>
+  <remote fetch="https://github.com/imyller" name="node"/>
+
+  <project remote="yocto" revision="morty" name="poky" path="yocto/poky"/>
+  <project remote="yocto" revision="morty" name="meta-raspberrypi" path="yocto/meta-rapsberrypi"/>
+
+  <project remote="oe" revision="morty" name="meta-openembedded" path="oe/meta-openembedded"/>
+
+  <project remote="iunu" revision="master" name="meta-iunu" path="iunu/meta-iunu"/>
+
+
+  <project remote="node" revision="morty" name="meta-nodejs" path="node/meta-nodejs"/>
+  <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
+</manifest>
