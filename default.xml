@@ -9,7 +9,7 @@
   <remote fetch="https://github.com/imyller" name="node"/>
 
   <project remote="yocto" revision="morty" name="poky" path="yocto/poky"/>
-  <project remote="yocto" revision="morty" name="meta-raspberrypi" path="yocto/meta-rapsberrypi"/>
+  <project remote="yocto" revision="morty" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
 
   <project remote="oe" revision="morty" name="meta-openembedded" path="oe/meta-openembedded"/>
 
