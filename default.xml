@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="morty"/>
+  <default sync-j="4" revision="master"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="ssh://git@github.com/iunullc" name="iunu"/>
   <remote fetch="https://github.com/imyller" name="node"/>
   <remote fetch="https://github.com/akuster" name="odroid"/>
-
+	<remote fetch="https://github.com/madisongh" name="go"/>
+	<remote fetch="https://github.com/bulwahn" name="ros"/>
+	
   <project remote="yocto" revision="morty" name="poky" path="yocto/poky"/>
   <project remote="yocto" revision="morty" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
 
@@ -19,4 +21,6 @@
 
   <project remote="node" revision="morty" name="meta-nodejs" path="node/meta-nodejs"/>
   <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
+	<project remote="go" revision="master" name="meta-golang" path="go/meta-golang" />
+	<project remote="ros" revision="kinetic-experimental-v3-alpha1" name="meta-ros" path="ros/meta-ros" />
 </manifest>
