@@ -10,6 +10,7 @@
   <remote fetch="https://github.com/akuster" name="odroid"/>
 	<remote fetch="https://github.com/madisongh" name="go"/>
 	<remote fetch="https://github.com/bulwahn" name="ros"/>
+	<remote fetch="https://github.com/emutex" name="up"/>
 	
   <project remote="yocto" revision="morty" name="poky" path="yocto/poky"/>
   <project remote="yocto" revision="morty" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
@@ -23,4 +24,5 @@
   <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
 	<project remote="go" revision="master" name="meta-golang" path="go/meta-golang" />
 	<project remote="ros" revision="kinetic-experimental-v3-alpha1" name="meta-ros" path="ros/meta-ros" />
+	<project remote="up" revision="pyro" name="meta-up-board" path="up/meta-up-board" />
 </manifest>
