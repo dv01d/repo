@@ -14,7 +14,7 @@
 	
   <project remote="yocto" revision="morty" name="poky" path="yocto/poky"/>
   <project remote="yocto" revision="morty" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
-
+  <project remote="yocto" revision="pyro" name="meta-intel" path="yocto/meta-intel"/>
   <project remote="oe" revision="morty" name="meta-openembedded" path="oe/meta-openembedded"/>
 
   <project remote="iunu" revision="master" name="meta-iunu" path="iunu/meta-iunu"/>
