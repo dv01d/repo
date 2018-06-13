@@ -12,15 +12,15 @@
 	<remote fetch="https://github.com/bulwahn" name="ros"/>
 	<remote fetch="https://github.com/emutex" name="up"/>
 	
-  <project remote="yocto" revision="morty" name="poky" path="yocto/poky"/>
-  <project remote="yocto" revision="morty" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
+  <project remote="yocto" revision="pyro" name="poky" path="yocto/poky"/>
+  <project remote="yocto" revision="pyro" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
   <project remote="yocto" revision="pyro" name="meta-intel" path="yocto/meta-intel"/>
-  <project remote="oe" revision="morty" name="meta-openembedded" path="oe/meta-openembedded"/>
+  <project remote="oe" revision="pyro" name="meta-openembedded" path="oe/meta-openembedded"/>
 
   <project remote="iunu" revision="master" name="meta-iunu" path="iunu/meta-iunu"/>
   <project remote="odroid" revision="pyro" name="meta-odroid" path="odroid/meta-odroid"/>
 
-  <project remote="node" revision="morty" name="meta-nodejs" path="node/meta-nodejs"/>
+  <project remote="node" revision="pyro" name="meta-nodejs" path="node/meta-nodejs"/>
   <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
 	<project remote="go" revision="master" name="meta-golang" path="go/meta-golang" />
 	<project remote="ros" revision="kinetic-experimental-v3-alpha1" name="meta-ros" path="ros/meta-ros" />
