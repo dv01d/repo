@@ -20,7 +20,7 @@
   <project remote="iunu" revision="master" name="meta-iunu" path="iunu/meta-iunu"/>
   <project remote="odroid" revision="pyro" name="meta-odroid" path="odroid/meta-odroid"/>
 
-  <project remote="node" revision="pyro" name="meta-nodejs" path="node/meta-nodejs"/>
+  <project remote="node" revision="master" name="meta-nodejs" path="node/meta-nodejs"/>
   <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
 	<project remote="go" revision="master" name="meta-golang" path="go/meta-golang" />
 	<project remote="ros" revision="kinetic-experimental-v3-alpha1" name="meta-ros" path="ros/meta-ros" />
