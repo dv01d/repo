@@ -12,13 +12,13 @@
 	<remote fetch="https://github.com/bulwahn" name="ros"/>
 	<remote fetch="https://github.com/emutex" name="up"/>
 	
-  <project remote="yocto" revision="pyro" name="poky" path="yocto/poky"/>
-  <project remote="yocto" revision="pyro" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
-  <project remote="yocto" revision="pyro" name="meta-intel" path="yocto/meta-intel"/>
-  <project remote="oe" revision="pyro" name="meta-openembedded" path="oe/meta-openembedded"/>
+  <project remote="yocto" revision="master" name="poky" path="yocto/poky"/>
+  <project remote="yocto" revision="master" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
+  <project remote="yocto" revision="master" name="meta-intel" path="yocto/meta-intel"/>
+  <project remote="oe" revision="master" name="meta-openembedded" path="oe/meta-openembedded"/>
 
   <project remote="iunu" revision="master" name="meta-iunu" path="iunu/meta-iunu"/>
-  <project remote="odroid" revision="pyro" name="meta-odroid" path="odroid/meta-odroid"/>
+  <project remote="odroid" revision="master" name="meta-odroid" path="odroid/meta-odroid"/>
 
   <project remote="node" revision="master" name="meta-nodejs" path="node/meta-nodejs"/>
   <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
