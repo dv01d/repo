@@ -23,6 +23,6 @@
   <project remote="node" revision="master" name="meta-nodejs" path="node/meta-nodejs"/>
   <project remote="node" revision="master" name="bitbake-npm" path="node/bitbake-npm" />
 	<project remote="go" revision="master" name="meta-golang" path="go/meta-golang" />
-	<project remote="ros" revision="kinetic-experimental-v3-alpha1" name="meta-ros" path="ros/meta-ros" />
+	<project remote="ros" revision="kinetic-experimental-v4-work-in-progress-v1" name="meta-ros" path="ros/meta-ros" />
 	<project remote="up" revision="pyro" name="meta-up-board" path="up/meta-up-board" />
 </manifest>
