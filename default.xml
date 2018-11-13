@@ -13,7 +13,7 @@
 	<remote fetch="https://github.com/emutex" name="up"/>
 	
   <project remote="yocto" revision="thud" name="poky" path="yocto/poky"/>
-  <project remote="yocto" revision="thud" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
+  <project remote="yocto" revision="master" name="meta-raspberrypi" path="yocto/meta-raspberrypi"/>
   <project remote="yocto" revision="thud" name="meta-intel" path="yocto/meta-intel"/>
   <project remote="oe" revision="thud" name="meta-openembedded" path="oe/meta-openembedded"/>
 
