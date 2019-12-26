@@ -5,7 +5,7 @@
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
-  <remote fetch="ssh://git@github.com/iunullc" name="iunu"/>
+  <remote fetch="ssh://git@gitlab.iunu.com/sysops" name="iunu"/>
   <remote fetch="https://github.com/imyller" name="node"/>
   <remote fetch="https://github.com/akuster" name="odroid"/>
 	<remote fetch="https://github.com/madisongh" name="go"/>
